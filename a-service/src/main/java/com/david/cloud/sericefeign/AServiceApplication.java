@@ -10,9 +10,9 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableEurekaClient
 @EnableDiscoveryClient
 @EnableFeignClients
-public class SericeFeignApplication {
+public class AServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SericeFeignApplication.class, args);
+        SpringApplication.run(AServiceApplication.class, args);
     }
 }

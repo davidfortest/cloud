@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.david.cloud</groupId>
-    <artifactId>service-feign</artifactId>
+    <artifactId>a-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>serice-feign</name>
+    <name>a-service</name>
     <description>Demo project for Spring Boot</description>
 
     <parent>
