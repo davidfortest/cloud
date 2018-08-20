@@ -1,0 +1,21 @@
+server:
+  port: 8899
+
+eureka:
+  client:
+    registerWithEureka: true #是否将自己注册到Eureka服务中，默认为true
+    fetchRegistry: true #是否从Eureka中获取注册信息，默认为true
+    serviceUrl:
+      defaultZone: http://localhost:8888/eureka
+
+spring:
+  application:
+    name: config-server
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+#          searchLocations: E:\workspace_spring_cloud\cloud\config-server\src\main\resources\thrid\
+          searchLocations: classpath:/
